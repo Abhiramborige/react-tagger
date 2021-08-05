@@ -1,0 +1,37 @@
+#root{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid grey;
+  border-radius: 10px;
+}
+body{
+  padding: 10px;
+  box-sizing: border-box;
+}
+input{
+  border: none;
+  padding: 10px;
+}
+input, .container{
+  border-radius: 10px;
+  background-color: #b5fff998;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.container > input{
+  width: 100%;
+}
+.tag{
+  display: flex;
+  background-color: #2f3d3c38;
+  align-items: center;
+  margin: 0 5px 0 5px;
+  border-radius: 10px;
+  padding: 0 5px 0 5px;
+}
+.material-icons-outlined{
+  cursor: pointer;
+}
